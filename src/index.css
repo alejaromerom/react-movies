@@ -1,0 +1,50 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  place-content: center;
+  padding: 50px 200px;
+  background-color: rgb(27, 27, 27);
+  border-radius: 70px;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(84, 90, 94);
+  border: 2px solid #fff;
+  border-radius: 20px;
+  justify-content: center;
+}
+.button {
+  border-radius: 12px;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+button {
+  font-size: medium;
+  border-radius: 10px;
+  margin-left: 9px;
+  padding: 9px 40px;
+  background-color: yellow;
+}
+
+input {
+  padding: 8px;
+  background-color: rgb(167, 167, 122);
+  border-radius: 4px;
+}
